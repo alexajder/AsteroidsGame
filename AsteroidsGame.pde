@@ -39,7 +39,10 @@ public void keyPressed() {
   }
   if (key == 'a') {
     bob.accelerate(0.2);
-  } else if (key == 'h') {
+  } if (key == 'd') {
+    bob.accelerate(-0.2); 
+  }
+    else if (key == 'h') {
     bob.setXspeed(0);
     bob.setYspeed(0); 
     bob.setPointDirection((int)(Math.random()*360)); 
