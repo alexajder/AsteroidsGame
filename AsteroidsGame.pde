@@ -9,8 +9,8 @@ public void setup()
   for (int i = 0; i < nightSky.length; i++) {
     nightSky[i] = new Star();
   }
-  for (int i = 0; i < 1; i++) {
-    tay.add(0, new Asteroid());
+  for (int i = 0; i < 10; i++) {
+    tay.add(i, new Asteroid());
   }
 }
 public void draw() 
